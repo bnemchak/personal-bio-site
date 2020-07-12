@@ -1,0 +1,11 @@
+{
+  "firebaseConfig": {
+  "apiKey": "AIzaSyALzonLPxDA_SGoaSEa0zs5Pg0jKBuTJeM",
+  "authDomain": "bnemchak-bio.firebaseapp.com",
+  "databaseURL": "https://bnemchak-bio.firebaseio.com",
+  "projectId": "bnemchak-bio",
+  "storageBucket": "bnemchak-bio.appspot.com",
+  "messagingSenderId": "510619896268",
+  "appId": "1:510619896268:web:5b80a649c5e4369aaa3569"
+  }
+}
