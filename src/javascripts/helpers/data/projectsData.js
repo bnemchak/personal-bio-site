@@ -1,14 +1,22 @@
-const projects = [
+import axios from 'axios';
+import apiKeys from '../apiKeys.json';
 
-  {
-    title: 'Cool Project',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux', // just use your GitHub link in this spot as well.
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-];
+const baseUrl = apiKeys.firebaseCongig.databaseURL;
 
-export default { projects };
+const getProjects = () => new Promise((resolve, reject) => {
+  axios.get(`${baseUrl}/projects.json`)
+    .then((response) => {
+      const projectObjects = response.data;
+      const projects = [];
+      if (projectObjects) {
+        Object.keys(projectObjects).forEach((projectId) => {
+          projectObjects[projectId].id = projectId;
+          projects.push(projectObjects[projectId]);
+        });
+      }
+      resolve(projects);
+    })
+    .catch((err) => reject(err));
+});
+
+export default { getProjects };
