@@ -1,20 +1,11 @@
-import firebase from 'firebase/app';
-import apiKeys from './helpers/apiKeys.json';
-import projectsData from './helpers/utils';
-import utils from './helpers/utils';
+import navbar from './components/navbar/navbar';
+import projects from './components/projects/projects';
 
-import'bootstrap';
 import '../styles/main.scss';
 
-const createProjects = () => {
-  projectsData.getProjects()
-    .then((projects) => {
-      let domString = '<header>Projects</header>';
-      projects.forEach((project) => {
-        if (project.available === true) {
-          domString += '<div class="projectsPage">';
-          domString +=
-        }
-      })
-    })
-}
+const init = () => {
+  navbar.createNavBar();
+  projects.myProjects();
+};
+
+init();
