@@ -1,5 +1,5 @@
 {
-  "firebaseConfig": {
+  "firebaseKeys": {
   "apiKey": "AIzaSyALzonLPxDA_SGoaSEa0zs5Pg0jKBuTJeM",
   "authDomain": "bnemchak-bio.firebaseapp.com",
   "databaseURL": "https://bnemchak-bio.firebaseio.com",
