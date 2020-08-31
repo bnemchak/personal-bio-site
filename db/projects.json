@@ -1,46 +1,46 @@
 {
   "project1": {
-    "title": "Cool Project",
+    "title": "Sports Roster",
     "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "This is our first project using react to create an app with full CRUD capabiolities.",
+    "technologiesUsed": "HTML, SCSS, React, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://sports-roster-1b50f.web.app",
+    "githubUrl": "https://github.com/bnemchak/sports-roster"
   },
   "project2": {
-    "title": "Cool Project",
+    "title": "RenFair",
     "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "This is a group project with full CRUD capabilities where we took over another group's premade project to build on and alter.",
+    "technologiesUsed": "HTML, SCSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://stealing-elks.web.app",
+    "githubUrl": "https://github.com/bnemchak/nutshell-elk"
   },
   "project3": {
-    "title": "Cool Project",
+    "title": "Pan Am Airlines",
     "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "This is a group projefct using Firebase to build a website for PanAm Airlines with CRUD capabilites.",
+    "technologiesUsed": "HTML, SCSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "panam-airlines-aea42.web.app",
+    "githubUrl": "https://github.com/bnemchak/nutshell-alces"
   },
   "project4": {
-    "title": "Cool Project",
+    "title": "Chatty-Delta-Narnia",
     "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
-    "description": "This is the best project",
+    "description": "This is a grour project that resulted in a chatroom for the characters of Chronicles of Narnia!",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": true,
+    "available": false,
     "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "githubUrl": "https://github.com/bnemchak/chatty-delta-narnia"
   },
   "project5": {
     "title": "Cool Project",
     "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
     "description": "This is the best project",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": true,
+    "available": false,
     "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
     "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
   }
