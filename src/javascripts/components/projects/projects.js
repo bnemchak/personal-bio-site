@@ -13,13 +13,13 @@ const myProjects = () => {
         if (project.available === true) {
           domString += '<div class="projectsAvailable">';
           domString += '<div class="card">';
-          domString += `<h2 id="project-title">${project.title}</h2>`;
+          domString += `<h2 class="card-title" id="project-title">${project.title}</h2>`;
           domString += '<div class="card-body">';
           domString += `<img src = ${project.screenshot}>`;
           domString += `<p>${project.description}</p>`;
           domString += `<h5>${project.technologiesUsed}</h5>`;
-          domString += `<button  class="btn btn-secondary" href="${project.url}">Site</button>`;
-          domString += `<button type="button" class="btn btn-secondary" href="${project.githubUrl}">gitHub<button>`;
+          domString += `<button class="btn btn-dark" href="${project.url}"><i class="fas fa-tablet-alt"></i></button>`;
+          domString += `<button class="btn btn-dark" href="${project.githubUrl}"><i class="fab fa-github"></i><button>`;
           domString += '</div></div>';
         }
       });
