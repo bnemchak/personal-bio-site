@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Sports Roster",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+    "screenshot": "https://i.imgur.com/rFDKy6Q.png",
     "description": "This is our first project using react to create an app with full CRUD capabiolities.",
     "technologiesUsed": "HTML, SCSS, React, Firebase, Version Control with Github",
     "available": true,
@@ -10,7 +10,7 @@
   },
   "project2": {
     "title": "RenFair",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+    "screenshot": "https://i.imgur.com/O0IOzlA.png",
     "description": "This is a group project with full CRUD capabilities where we took over another group's premade project to build on and alter.",
     "technologiesUsed": "HTML, SCSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
@@ -19,7 +19,7 @@
   },
   "project3": {
     "title": "Pan Am Airlines",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+    "screenshot": "https://i.imgur.com/VIQpiRo.png",
     "description": "This is a group projefct using Firebase to build a website for PanAm Airlines with CRUD capabilites.",
     "technologiesUsed": "HTML, SCSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
