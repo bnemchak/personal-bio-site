@@ -15,7 +15,7 @@ const myProjects = () => {
           domString += '<div class="card">';
           domString += `<h2 class="card-title" id="project-title">${project.title}</h2>`;
           domString += '<div class="card-body">';
-          domString += `<img src = ${project.screenshot}>`;
+          domString += `<img class="card-img-top" src=${project.screenshot}></img>`;
           domString += `<p>${project.description}</p>`;
           domString += `<h5>${project.technologiesUsed}</h5>`;
           domString += `<button class="btn btn-dark" href="${project.url}"><i class="fas fa-tablet-alt"></i></button>`;
